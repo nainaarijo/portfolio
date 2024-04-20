@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F6F2F0;
+}
+
+.container{
+    padding: 20px 80px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+
+:root{
+    --primary_color:#FF5588;
+}
+
+.profile-data{
+   width: 20%;
+   margin-top: 80px;
+
+}
+
+.profile-data img{
+   border-radius: 30px;
+}
+
+.icons{
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.profile-data button{
+    width: 290px;
+    margin: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    font-size: 20px ;
+    font-weight: 400px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.profile-details{
+    margin-left: 70px;
+}
+
+.profile-details .introduction h2{
+   color:var(--primary_color);
+   font-size: 25px ;
+   font-weight: 400px;
+}
+
+.profile-details .introduction h1{
+  margin: 40px 0px;
+  font-size: 60px ;
+  font-weight: 400px;
+ }
+
+ /* projects section */
+ .work-done{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+ }
+
+ .work-done .projects{
+    text-align: center;
+ }
+
+ .work-done .projects h1{
+    color: var(--primary_color);
+   
+ }
+
+ .work-done .projects span{
+    font-size: 24px ;
+    font-weight: 400px;
+ }
+/* About section */
+ .about-section h2{
+   color: var(--primary_color);
+   margin-top: 150px;
+ }
+
+ .about-section h3{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 400px;
+ }
+
+ .about-section p{
+    margin-top: 30px;
+ }
+/* career section */
+ .education-section h3{
+   color: var(--primary_color);
+   margin-top: 130px;
+ }
+
+ .education-section h2{
+    margin-top: 30px;
+    color:   #181818;
+ }
+
+ .education-section-1{
+    margin-top: 40px;
+ }
+
+ .education-section-1 h5{
+    font-size: 18px;
+ }
+
+ .education-section-2{
+    margin-top: 40px;
+ }
+
+ .education-section-2 h5{
+    font-size: 18px;
+ }
+
+ .education-section-3{
+    margin-top: 40px;
+ }
+
+ .education-section-3 h5{
+    font-size: 18px;
+ }
+
+ .education-section-4{
+    margin-top: 40px;
+ }
+
+ .education-section-4 h5{
+    font-size: 18px;
+ }
+
+ /* services section */
+ 
+ .services-section h2{
+   color: var(--primary_color);
+   margin-top: 100px;
+ }
+
+ .services-section h3{
+    margin-top: 20px;
+ }
+
+ .services-section .services-cards {
+    display: flex;
+    justify-content: space-between;
+  
+ }
+
+ .service-card-1{
+    border: 1px solid  #FF5588;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    text-align: center;
+    width: 150px;
+ }
+
+ .service-card-1 h3{
+    margin-bottom: 5px;
+ }
+
+ .service-card-2{
+    border: 1px solid  #333333;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    width: 150px;
+    text-align: center;
+ }
+
+ .service-card-2 h3{
+    margin-bottom: 5px;
+ }
+
+ .service-card-3{
+    border: 1px solid  #333333;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    width: 150px;
+    text-align: center;
+ }
+
+.service-card-3 h3{
+    margin-bottom: 5px;
+ }
+
+ /* skill section */
+ .skill-section h3{
+    color: var(--primary_color);
+    margin-top: 100px;
+ }
+
+ .skill-section h2{
+    color: #181818;
+    margin-top: 20px;
+ }
+
+ .images img{
+    margin-top: 70px;
+    justify-content: space-between;
+    padding: 0px 15px;
+    width: 50px;
+
+ }
+
+ /* portfolio section */
+ .portfolio-section h3{
+   color: var(--primary_color);
+   margin-top: 100px;
+ }
+
+ .portfolio-images img{
+   width: 700px;
+   border-radius: 40px;
+ }
+
+ .img-2 img{
+   width: 335px;
+   height: 200px;
+   border-radius: 30px;
+   padding: 0px 5px;
+ }
+
+ 
+
+ .portfolio-section h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+ }
+
+ /* card section */
+
+ .card-heading h1{
+   color: var(--primary_color);
+   margin-top: 100px;
+   margin-bottom: 30px;
+ }
+
+ .card-heading h2{
+   margin-bottom: 30px;
+ }
+
+ .user-details{
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 700px;
+  height: 300px;
+  padding: 10px 10px 50px;
+ }
+
+ .user-data{
+   display: flex;
+   width: 650px;
+  padding: 50px 20px;
+ }
+
+.user-summary{
+   margin-top: 30px;
+   padding: 0px 30px;
+}
+
+.user-summary h4{
+   padding: 10px 0px;
+}
+
+.user-para{
+   padding: 10px 30px;
+}
+
+/* brand section */
+.brands-section h2{
+  color: var(--primary_color);
+  margin-top: 100px;
+}
+
+.brands-section h3{
+   padding: 30px 0px;
+   font-size: 24px;
+}
+
+.brands-images img{
+  margin:20px;
+}
+
+/* form section */
+.contact{
+   font-size: 24px;
+   font-weight: 400;
+   color: var(--primary_color);
+   margin: 40px 0px;
+}
+
+.form-input input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #bbb1b4;
+  width: 400px;
+  padding: 6px ;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-input{
+   margin: 20px 0px;
+}
+
+.form-input input:focus{
+   outline: none;
+}
+
+.form-textarea textarea{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 1px solid #bbb1b4;
+}
+
+.form-textarea textarea:focus{
+   outline: none;
+}
+
+.hire-btn{
+   padding: 15px 55px;
+   border-radius: 15px;
+   border: 1px solid  #bbb1b4 ;
+   margin: 20px 0px;
+}
+
+
+ 
+ 
+
+ 
+ 
+
+
+ 
